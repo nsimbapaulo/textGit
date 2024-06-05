@@ -1,0 +1,36 @@
+#include <iostream>
+
+int main()
+{
+    double altura, largura, comprimento, volume;
+
+    std::cout << "Entre com a altura, argura e o comprimento.\n>>>> ";
+    std:: cin >> altura >> largura >> comprimento ;
+   
+    volume = altura * largura * comprimento;
+
+    std::cout << "\n======================================\n";
+    std::cout << "altura: " << altura << " cm\n"
+              << "largura: " <<largura << " cm\n"
+              << "comprimento: " << comprimento << " cm\n";
+    std::cout << "\nO volume e: " << volume << " cm cubicos\n";
+
+}
+
+
+
+#include <ostream>
+
+using spacename std;
+
+int main()
+{
+	int hora, minuto;
+	char doisPontos;
+	
+	cout << "Que horas são?\n";
+	cin >> hora >> doisPontos >> minuto;
+
+	cout << "\n\n Hora: " << hora << endl;
+	cout << "Minuto : " << minuto << endl << endl;
+}
